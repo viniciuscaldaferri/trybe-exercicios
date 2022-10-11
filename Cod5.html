@@ -26,6 +26,7 @@
     <input type="button" value="Multiplicar" onclick="Multiplicar()">
     <input type="button" value="Dividir" onclick="Dividir()">
     <input type="button" value="Elevar" onclick="Elevar()">
+    <input type="button" value="Porcentagem" onclick="Porcentagem()">
     <div id="res">Resultado:</div>
     <script>
         function Somar(){
@@ -73,7 +74,7 @@
             var tn2 = document.getElementById('txt2')
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
-            var s1 = n1 * n1
+            var s1 = n1 * n2
             var s = s1 / 100
             res.innerHTML = `${n1}% de ${n2} é igual a: ${s}`
         }
